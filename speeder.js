@@ -10,12 +10,12 @@
     function showOverlay(text) {
         let div = document.createElement("div");
         div.style.position = "fixed";
-        div.style.top = "500px";
-        div.style.right = "1000px";
-        div.style.padding = "50px 705px";
+        div.style.top = "20px";
+        div.style.right = "20px";
+        div.style.padding = "10px 18px";
         div.style.background = "rgba(255, 165, 0, 1)";
         div.style.color = "white";
-        div.style.fontSize = "30px";
+        div.style.fontSize = "14px";
         div.style.borderRadius = "100px";
         div.style.zIndex = 999999;
         div.innerText = text;
@@ -59,3 +59,4 @@
         }
     });
 })();
+
